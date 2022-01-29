@@ -1,0 +1,6 @@
+1tpkA	65	V	A
+1tpkA	65	V	I
+1tpkA	65	V	L
+1tpkA	65	V	M
+1tpkA	65	V	S
+1tpkA	65	V	T

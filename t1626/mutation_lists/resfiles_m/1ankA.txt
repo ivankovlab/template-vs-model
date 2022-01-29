@@ -1,0 +1,4 @@
+1ankA	84	D	H
+1ankA	85	G	V
+1ankA	86	F	L
+1ankA	88	R	G
