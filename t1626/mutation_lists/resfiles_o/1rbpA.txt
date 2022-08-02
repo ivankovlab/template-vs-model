@@ -1,6 +1,0 @@
-1rbpA	24	W	F
-1rbpA	24	W	L
-1rbpA	24	W	Y
-1rbpA	91	W	H
-1rbpA	105	W	F
-1rbpA	139	R	Q

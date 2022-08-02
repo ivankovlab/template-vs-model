@@ -1,3 +1,0 @@
-1bf4A	24	W	A
-1bf4A	30	I	V
-1bf4A	32	F	Y

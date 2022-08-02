@@ -1,4 +1,0 @@
-1oncA	23	M	L
-1oncA	28	F	A
-1oncA	28	F	T
-1oncA	36	F	Y

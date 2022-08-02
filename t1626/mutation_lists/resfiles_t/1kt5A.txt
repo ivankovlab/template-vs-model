@@ -1,6 +1,0 @@
-1kt5A	24	W	F
-1kt5A	24	W	L
-1kt5A	24	W	Y
-1kt5A	91	W	H
-1kt5A	105	W	F
-1kt5A	139	R	Q

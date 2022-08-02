@@ -1,6 +1,0 @@
-1tpkA	70	V	A
-1tpkA	70	V	I
-1tpkA	70	V	L
-1tpkA	70	V	M
-1tpkA	70	V	S
-1tpkA	70	V	T
