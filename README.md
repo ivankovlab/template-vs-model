@@ -6,7 +6,7 @@ Marina A Pak, Dmitry N Ivankov, Best templates outperform homology models in pre
 
 - `t1626` - data used in analysis using experimental protein stability changes from T1626 dataset (see Section 3.3 of Results).
 
-***Data***
+**Data**
 
 Data used for ddG prediction.
 
@@ -30,7 +30,7 @@ Data used for ddG prediction.
 
 &nbsp;&nbsp;&nbsp;`repaired_foldx` - repaired structures from `source` by FoldX.
 
-***Results***
+**Results**
 
 - `ddg_predictions/` - tables with raw values of predicted ddG for all predictors.
 
