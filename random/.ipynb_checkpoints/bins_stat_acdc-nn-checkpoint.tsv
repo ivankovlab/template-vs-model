@@ -1,0 +1,6 @@
+seq_identity	mutations	pcc_template	se_template	rmse_template	pcc_alphafold	se_alphafold	rmse_alphafold	pcc_itasser	se_itasser	rmse_itasser	p_z_alphafold	p_z_itasser
+90	380	0.98	0.01	0.18	0.99	0.01	0.19	0.99	0.01	0.14	1.2e-11	1.2e-12
+80	450	0.99	0.0	0.08	0.98	0.01	0.22	0.98	0.01	0.14	4.4e-15	4.4e-15
+70	303	0.97	0.01	0.2	0.96	0.02	0.29	0.96	0.02	0.25	0.0002	0.0002
+50	168	0.96	0.02	0.26	0.96	0.02	0.34	0.96	0.02	0.25	0.5	0.5
+30-40	236	0.97	0.01	0.14	0.97	0.02	0.25	0.98	0.01	0.13	0.5	0.0004

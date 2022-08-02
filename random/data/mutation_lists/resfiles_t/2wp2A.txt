@@ -1,0 +1,5 @@
+2wp2A	129	L	Q
+2wp2A	88	E	M
+2wp2A	39	L	Y
+2wp2A	128	K	T
+2wp2A	108	N	V

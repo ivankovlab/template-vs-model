@@ -1,0 +1,6 @@
+1kf3A	46	F	L
+1kf3A	46	F	V
+1kf3A	67	N	D
+1kf3A	75	S	A
+1kf3A	75	S	T
+1kf3A	93	P	G

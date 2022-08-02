@@ -1,0 +1,54 @@
+##############################################################################################################
+#
+# Rosetta crash log. Please submit the contents of this file to http://crash.rosettacommons.org/
+# or use the script Rosetta/main/source/scripts/python/public/report_crashes.py
+#
+
+[START_CRASH_REPORT]
+[ROSETTA_VERSION]: 2020.08+release.cb1caba
+[COMMIT_DATE]: 2020-02-22T18:49:33.865989
+[APPLICATION]: /gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/bin/relax.default.linuxgccrelease
+[MODE]: Release
+[EXTRAS]: default
+[OS]: GNU/Linux
+[COMPILER]: GCC version "4.8.5 20150623 (Red Hat 4.8.5-44)"
+[STDLIB]: libstdc++ version 20150623
+[START_OPTIONS]
+ -in:file:s=pdb4bhw_A.pdb -out:suffix=_relaxed -out:no_nstruct_label -relax:constrain_relax_to_start_coords -relax:ramp_constraints=false
+
+[END_OPTIONS]
+
+[START_BACKTRACE]: RAW_LIBC
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libcore.6.so(backtrace_string(int)+0x3a) [0x15550df5f1da]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libutility.so(utility::excn::Exception::Exception(char const*, int, std::string const&)+0x51) [0x155508d13551]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libutility.so(utility::exit(char const*, int, std::string const&, int)+0xa5) [0x155508dbbee5]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libcore.3.so(core::pose::initialize_disulfide_bonds(core::pose::Pose&, core::io::StructFileRep const&)+0x779) [0x15550b0e9019]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libcore.3.so(core::io::pose_from_sfr::PoseFromSFRBuilder::refine_pose(core::pose::Pose&)+0x171d) [0x15550bd0802d]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libcore.3.so(core::io::pose_from_sfr::PoseFromSFRBuilder::build_pose(core::io::StructFileRep const&, core::pose::Pose&)+0xdc) [0x15550bd12bfc]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libcore.6.so(core::import_pose::build_pose_as_is(std::shared_ptr<core::io::StructFileRep>, core::pose::Pose&, core::chemical::ResidueTypeSet const&, core::import_pose::ImportPoseOptions const&)+0xc3) [0x15550debc6a3]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libcore.6.so(core::import_pose::build_pose(std::shared_ptr<core::io::StructFileRep>, core::pose::Pose&, core::chemical::ResidueTypeSet const&, core::import_pose::ImportPoseOptions const&)+0x92) [0x15550debcb32]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libcore.6.so(core::import_pose::pose_from_file(core::pose::Pose&, core::chemical::ResidueTypeSet const&, std::string const&, core::import_pose::ImportPoseOptions const&, bool, core::import_pose::FileType)+0xafb) [0x15550dec259b]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libcore.6.so(core::import_pose::pose_from_file(core::pose::Pose&, std::string const&, core::import_pose::ImportPoseOptions const&, bool, core::import_pose::FileType)+0x50) [0x15550dec3910]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libcore.6.so(core::import_pose::pose_from_file(core::pose::Pose&, std::string const&, bool, core::import_pose::FileType)+0x3b) [0x15550dec3afb]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libprotocols.1.so(protocols::jd2::PDBJobInputter::pose_from_job(core::pose::Pose&, std::shared_ptr<protocols::jd2::Job>)+0x3a7) [0x15550eabc957]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libprotocols.1.so(protocols::jd2::JobDistributor::run_one_job(std::shared_ptr<protocols::moves::Mover>&, long, std::string&, std::string&, unsigned long&, unsigned long&, bool)+0x6aa) [0x15550ea9d06a]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libprotocols.1.so(protocols::jd2::JobDistributor::go_main(std::shared_ptr<protocols::moves::Mover>)+0xc1) [0x15550ea9f201]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libprotocols.1.so(protocols::jd2::FileSystemJobDistributor::go(std::shared_ptr<protocols::moves::Mover>)+0x4a) [0x15550ea8e54a]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/build/src/release/linux/5.4/64/x86/gcc/4.8/default/libprotocols.4.so(protocols::relax::Relax_main(bool)+0x948) [0x155510edddc8]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/bin/relax.default.linuxgccrelease() [0x4010cb]
+/lib64/libc.so.6(__libc_start_main+0xf5) [0x155506aee555]
+/gpfs/data/gpfs0/ivankov-lab/rosetta/rosetta_src_2020.08.61146_bundle/main/source/bin/relax.default.linuxgccrelease() [0x40115f]
+
+[END_BACKTRACE]
+
+[FILE]: src/core/pose/util.cc
+[LINE]: 1280
+[START_MESSAGE]
+[ ERROR ] UtilityExitException
+ERROR: Error with SSBond record.
+
+
+
+[END_MESSAGE]
+[END_CRASH_REPORT]
+

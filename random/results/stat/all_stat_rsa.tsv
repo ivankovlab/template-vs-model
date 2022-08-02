@@ -1,0 +1,15 @@
+predictor	rsa	count	pcc_template	se_template	rmse_template	pcc_alphafold	se_alphafold	rmse_alphafold	pcc_tasser	se_tasser	rmse_tasser	p_adj_z_alphafold	p_adj_z_tasser
+FoldX	exposed	689	0.77	0.02	0.84	0.81	0.02	0.76	0.54	0.03	1.17	0.0044	2.2e-20
+FoldX	buried	689	0.77	0.02	1.43	0.82	0.02	1.26	0.5	0.03	2.28	0.0001	1.5e-24
+Eris	exposed	442	0.61	0.04	2.96	0.33	0.05	3.44	0.31	0.05	3.88	1.2e-09	3.2e-10
+Eris	buried	418	0.69	0.04	3.21	0.12	0.05	5.4	0.2	0.05	5.03	4.7e-26	1.1e-21
+Rosetta	exposed	253	0.66	0.05	2.21	0.68	0.05	2.35	0.44	0.06	2.88	0.3734	1.6e-05
+Rosetta	buried	214	0.59	0.06	3.55	0.69	0.05	3.04	0.39	0.06	4.56	0.0127	0.002
+DDGun	exposed	702	0.97	0.01	0.18	0.99	0.01	0.13	0.95	0.01	0.24	3.0e-49	7.9e-13
+DDGun	buried	843	1.0	0.0	0.17	1.0	0.0	0.11	0.99	0.0	0.2	-	-
+ACDC-NN	exposed	698	0.96	0.01	0.12	0.96	0.01	0.16	0.97	0.01	0.12	0.5385	3.3e-05
+ACDC-NN	buried	839	0.98	0.01	0.2	0.98	0.01	0.3	0.97	0.01	0.21	0.5385	5.1e-13
+ThermoNet	exposed	467	0.67	0.03	0.43	0.66	0.03	0.42	0.72	0.03	0.4	0.4214	0.0251
+ThermoNet	buried	495	0.77	0.03	0.65	0.76	0.03	0.64	0.73	0.03	0.71	0.3734	0.0266
+DynaMut	exposed	702	0.66	0.03	0.54	0.67	0.03	0.53	0.57	0.03	0.61	0.3922	0.0005
+DynaMut	buried	843	0.85	0.02	0.67	0.87	0.02	0.66	0.8	0.02	0.83	0.0127	5.9e-06

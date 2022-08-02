@@ -1,0 +1,6 @@
+- 14:53:32.275 INFO: Search results will be written to t/*fasta.hhr
+
+- 14:53:36.411 INFO: Searching 15161831 column state sequences.
+
+- 14:53:36.531 ERROR: Input file (t/*fasta) could not be opened!
+

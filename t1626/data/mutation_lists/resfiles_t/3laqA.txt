@@ -1,0 +1,6 @@
+3laqA	116	V	A
+3laqA	116	V	I
+3laqA	116	V	L
+3laqA	116	V	M
+3laqA	116	V	S
+3laqA	116	V	T

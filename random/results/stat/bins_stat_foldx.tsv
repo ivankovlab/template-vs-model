@@ -1,0 +1,6 @@
+bin	count	pcc_template	se_template	rmse_template	p_pcc_template	pcc_alphafold	se_alphafold	rmse_alphafold	p_pcc_alphafold	pcc_tasser	se_tasser	rmse_tasser	p_pcc_tasser	p_z_alphafold	p_z_tasser
+90	355	0.9	0.02	0.78	5.1e-128	0.92	0.02	0.68	1.5e-148	0.62	0.04	1.52	2.8e-39	0.0072	3.2e-32
+80	391	0.84	0.03	1.1	1.1e-106	0.81	0.03	1.23	3.0e-90	0.47	0.04	2.08	3.4e-23	0.0177	1.9e-31
+70	283	0.79	0.04	1.2	2.7e-61	0.82	0.03	1.13	2.7e-69	0.65	0.05	1.55	4.5e-35	0.0567	6.3e-06
+50	153	0.79	0.05	1.3	3.7e-34	0.89	0.04	0.95	4.2e-53	0.69	0.06	1.55	5.4e-23	4.3e-05	0.0068
+30-40	196	0.66	0.05	1.66	2.4e-26	0.86	0.04	1.09	6.0e-59	0.47	0.06	2.24	2.3e-12	5.7e-11	0.001

@@ -1,0 +1,4 @@
+3x2sA	84	D	H
+3x2sA	85	G	V
+3x2sA	86	F	L
+3x2sA	88	R	G
